@@ -8,3 +8,13 @@ a{
     text-decoration: none;
     font-size: 22px;
 }
+*{
+    padding: 1px;
+    }
+    body{
+        background-color:burlywood;
+    }
+    .desc{
+        display: flex;
+        float: right;
+    }
