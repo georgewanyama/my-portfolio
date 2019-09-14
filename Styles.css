@@ -2,7 +2,7 @@ nav ul li{
     display: inline;
     list-style: none;
     padding: 25px;
-    padding-left: 80px;
+    padding-left: 200px;
 }
 a{
     text-decoration: none;
@@ -11,10 +11,41 @@ a{
 *{
     padding: 1px;
     }
-    body{
-        background-color:burlywood;
+body{
+        background-color:palegoldenrod;
     }
-    .desc{
-        display: flex;
-        float: right;
+
+.header{
+        
+        
+        text-align: center;
     }
+
+img {
+    width:400px;
+    height:400px;
+    text-align: center;
+    display: block;
+    flex-direction: row-reverse;
+
+    
+}
+#hob{
+    clear: both;
+}
+
+.hobbies{
+    padding:left;
+
+}
+.contacts{
+    display: flex;
+    list-style: none;
+    /* padding: 25px; */
+     width: 70%;
+     justify-content: space-between;   
+}
+/* i{
+    margin
+} */
+
