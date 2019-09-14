@@ -8,17 +8,19 @@ a{
     text-decoration: none;
     font-size: 22px;
 }
+
 *{
     padding: 1px;
     }
+    
 body{
         background-color:palegoldenrod;
     }
 
 .header{
+        float:right;
         
-        
-        text-align: center;
+        text-align:center;
     }
 
 img {
@@ -35,7 +37,8 @@ img {
 }
 
 .hobbies{
-    padding:left;
+    float:right;
+    width: 50%;
 }
 
 .contacts{
